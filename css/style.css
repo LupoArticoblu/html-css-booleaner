@@ -12,7 +12,7 @@ span{
   display: block;
 }
 
-section > span{
+section > span, footer > span{
   color: gray;
   font-size: larger;
 }
@@ -27,6 +27,8 @@ h1{
   font-size: 50px;
   font-style: normal;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 50px;
+  padding: 10px 0;
 }
 
 a{
@@ -36,6 +38,27 @@ a{
 b{
   background-color: yellow;
   font-weight: normal;
+}
+
+p{
+  padding: 20px 0;
+}
+
+table{
+  width: 100%;
+  padding: 30px 0;
+  text-align: left;
+  border-spacing: 0;  
+}
+
+thead{
+  background-color: rgb(121, 185, 241);
+  color: white;
+  margin: auto;
+}
+
+.dispari{
+  background-color: rgb(141, 231, 243);
 }
 
 .upper{
@@ -53,6 +76,30 @@ b{
 
 .img{
   padding: 15px 0 0 0;
+}
+
+.spot{
+  margin: 15px 5px;
+  padding: 15px 5px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(../img/monitor.jpg);
+  color: antiquewhite;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.spot2{
+  margin: 15px 5px;
+  padding: 15px 5px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(../img/graph.jpg);
+  color: antiquewhite;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
 
