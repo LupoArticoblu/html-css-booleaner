@@ -1,6 +1,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  font-size: 25px;
 }
 
 section{
@@ -9,8 +10,17 @@ section{
 
 span{
   display: block;
+}
+
+section > span{
   color: gray;
   font-size: larger;
+}
+
+header > span{
+  margin: 0px 5px;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 h1{
@@ -23,9 +33,14 @@ a{
   color: rgb(0, 153, 255);
 }
 
+b{
+  background-color: yellow;
+  font-weight: normal;
+}
+
 .upper{
   height: 100px;
-  background-image: url('img/pattern.png');
+  background-image: url('../img/pattern.png');
   background-color: cornflowerblue;
   background-size: contain;
 }
@@ -37,7 +52,7 @@ a{
 }
 
 .img{
-  padding: 15px 0;
+  padding: 15px 0 0 0;
 }
 
 
