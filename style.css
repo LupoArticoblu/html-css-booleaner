@@ -3,9 +3,42 @@
   box-sizing: border-box;
 }
 
+section{
+  margin: 5px;
+}
+
+span{
+  display: block;
+  color: gray;
+  font-size: larger;
+}
+
+h1{
+  font-size: 50px;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  color: rgb(0, 153, 255);
+}
+
 .upper{
   height: 100px;
   background-image: url('img/pattern.png');
   background-color: cornflowerblue;
+  background-size: contain;
 }
+
+#booleaner{
+  width: 220px;
+  height: 140px;
+  padding: 10px; 
+}
+
+.img{
+  padding: 15px 0;
+}
+
+
 
